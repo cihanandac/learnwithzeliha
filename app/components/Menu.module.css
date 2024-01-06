@@ -1,0 +1,34 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #223146; /* Change color as needed */
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 99; /* Ensure it's above other content */
+}
+
+.open {
+  transform: translateY(0);
+}
+
+.mobilemenulinks {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.mobilemenulinks a{
+    display: block !important;
+    font-size: 2.5rem !important;
+}
+.logo{
+  margin: 10px 15px;
+  display: block !important;
+}
+.menu .logo img{
+  z-index: 1000;
+}
+.logo img{
+  padding-top: 5px;
+}
