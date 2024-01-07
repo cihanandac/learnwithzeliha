@@ -1,0 +1,44 @@
+.piano{
+    /* display: flex; */
+}
+.upperrow, .bottomrow{
+    display: flex;
+}
+.upperrow{
+    margin-left: 30px;
+    position: absolute;
+    z-index: 5;
+}
+.invisible{
+    visibility: hidden;
+}
+.pianobutton{
+    border: 0.5px solid rgb(103, 102, 102);
+    position: relative;
+}
+
+.piano .pianobutton.black{
+    background-color: black;
+    height: 100px;
+    width: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.piano .pianobutton.white{
+    background-color: white;
+    height: 150px;
+    width: 50px;
+}
+.notation{
+    position: absolute;
+    bottom: 5px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    z-index: 10;
+}
+.black.notation{
+    color: white;
+}
+.white.notation{
+    color: black;
+}
